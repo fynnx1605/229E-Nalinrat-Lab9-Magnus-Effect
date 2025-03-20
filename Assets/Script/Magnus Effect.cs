@@ -14,11 +14,11 @@ public class MagnusEffect : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.E)) ;
+        if (Input.GetKeyDown(KeyCode.E))
         {
             Kick();
-            ApplyMagnusEffect();
         }
+        ApplyMagnusEffect();
     }
 
     void Kick()
